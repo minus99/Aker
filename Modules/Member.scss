@@ -1107,12 +1107,16 @@
     .ems-page-default-info{
         max-width: 450px;
         .page-top-title {
-            font-family: $dRegular;
-            font-size: 30px;
-            color: #3f434f;
+            font-size: 26px;
+            font-family: "medium";
             padding-bottom: 20px;
         }
-        .ems-form-inner .ems-field.success-hide{display: none;}
+        .ems-form-inner{
+            .ems-field .ems-form-label{padding-left: 10px !important;}
+            .ems-field.success-hide{
+                display: none;
+            }
+        }
     }
     .ems-page-content-title,
     .page-top-desc {
@@ -1126,7 +1130,6 @@
         .ems-field{
             &.msgCaptcha{
                 div[id$="divCaptcha"]{
-                    img{}
                     span{display: block; margin-top: 10px;}
                 }
             }
@@ -1134,15 +1137,12 @@
                 max-width: 230px;
                 padding-top: 23px;
                 padding-bottom: 23px;
-                background: #3f434f;
+                background: $lDark;
                 span{
                     color: #fff;
                 }
                 &:hover{
-                    background: #d9b993;
-                    span{
-                        color: #3f434f;
-                    }
+                    background: $btnColor;
                 }
             }
         }
