@@ -3917,7 +3917,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; box-shado
 .site-footer-corporate p > a:first-child { margin-right: 10px; border-right: 1.5px solid #aeb0b7; padding-right: 10px; }
 
 /*Single Desktop*/
-@media screen and (min-width: 850px) { .site-footer { border-top: 1px solid #e6e7e9; padding-top: 40px; }
+@media screen and (min-width: 850px) { .site-footer { border-top: 1px solid #e6e7e9; padding-top: 40px; padding-bottom: 30px; }
   .site-footer-menu > ul > li > ul > li a { line-height: 15px; color: #28354f; }
   .site-footer-menu > ul > li > ul > li a:hover { color: #06c0d9; }
   .site-footer-center > .ems-container .ems-cell-1 { width: 60%; }
@@ -3929,7 +3929,22 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; box-shado
   .site-footer-copyright, .site-footer-corporate { padding-top: 30px; padding-bottom: 30px; }
   .site-footer-copyright p { font-family: "light"; font-size: 14px; }
   .site-footer-corporate p { text-align: right; }
-  .kutuBulten { display: table; width: 100%; max-width: 450px; margin-left: auto; } }
+  .kutuBulten { display: table; width: 100%; max-width: 450px; margin-left: auto; }
+  /*Cookie*/
+  .cookie-warning { position: fixed; bottom: -100%; left: 0; width: 100%; z-index: 1; background: rgba(246, 247, 249, 0.5); transition: all .5s ease; padding: 15px; display: none; }
+  .cookie-warning.show { display: block; }
+  .cookie-warning .cookie-warning-wrap { line-height: 15px; font-size: 12px; font-family: "regular"; color: #171d2f; text-align: center; }
+  .cookie-warning .cookie-warning-wrap a { display: inline-block; text-decoration: underline; }
+  .cookie-warning .cookie-bnr-close { position: absolute; top: 15px; right: 10px; z-index: 1; width: 10px; height: 10px; }
+  .cookie-warning .cookie-bnr-close .ico_close, .cookie-warning .cookie-bnr-close .ico_close:before { font-size: 10px; color: #fff; }
+  .sticky-header-ready .cookie-warning { bottom: 0; } }
+
+/*Cookie*/
+.cookie-warning { width: 100%; background: #f6f7f9; }
+
+.cookie-warning .cookie-warning-wrap { color: #171d2f; }
+
+.cookie-warning .cookie-bnr-close .icon-ico_close, .cookie-warning .cookie-bnr-close .icon-ico_close:before { color: #171d2f; }
 
 .kutuBulten .mod-newsletter-header > span { display: block; padding-bottom: 20px; }
 
@@ -4203,7 +4218,7 @@ body.ems-login .mbHeader > div.mbMember .mbMemberBtn { display: inline-block; }
   .ems-grid-banner-inner { position: relative; margin-top: 50px; margin-left: 10px; margin-right: 10px; transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -webkit-transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -o-transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); opacity: 0; -webkit-transform: skewX(4deg); -ms-transform: skewX(4deg); transform: skewX(4deg); }
   .ems-grid-banner-inner > a { display: block; }
   .ems-grid-banner-inner > a:hover .btn-single span:before { width: 100%; overflow: visible; }
-  .ems-grid-banner-text { position: absolute; top: 50%; z-index: 1; min-width: 60%; width: 60%; padding: 0 10px; text-align: center; transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -webkit-transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -o-transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); opacity: 0; transition-delay: 555ms; }
+  .ems-grid-banner-text { position: absolute; top: 50%; z-index: 1; min-width: 50%; width: 50%; padding: 0 10px; text-align: center; transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -webkit-transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -o-transition: all 666ms cubic-bezier(0.42, 0, 0.58, 1); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); opacity: 0; transition-delay: 555ms; }
   .ems-grid-banner-text-small span { color: #fff; font-family: "regular"; font-size: 18px; letter-spacing: 3px; }
   .ems-grid-banner-text-big span { font-family: "regular"; font-size: 60px; color: #fff; }
   .ems-grid-banner-text-button .btn-single { margin-top: 30px; }

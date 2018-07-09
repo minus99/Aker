@@ -49,7 +49,7 @@
 
 .popup.kombin{
     position: fixed;
-    top: 80px;
+    top: 0;
     right: 0;
     width: 320px;
     height: 100%;
@@ -103,7 +103,7 @@
                     top: 80px;
                     left: 0;
                     width: 95%;
-                    height: calc(100% - 180px);
+                    height: calc(100% - 60px);
                     overflow-x: hidden;
                     padding: 20px;
                 }
@@ -118,7 +118,7 @@
                         margin-top: 0;
                         border-top: none;
                     }
-                    &-group, &-color-info{display: none;}
+                    &-group, &-color-info, &-favorites{display: none;}
                     &-content-mask{
                         max-height: inherit;
                     }
