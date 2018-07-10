@@ -141,15 +141,15 @@ body { overflow-x: hidden; }
 	position: relative;
 	padding-left: 15px;
 	&:before {
-		content: "#";
+		content: "*";
 		color: #ff566b;
 		position: absolute;
 		left: 0;
 		top: 50%;
-		height: 20px;
-		line-height: 20px;
-		font-size: 10px;
-		margin-top: -10px;
+		height: 18px;
+		line-height: 18px;
+		font-size: 18px;
+		margin-top: -5px;
 	}
 }
 

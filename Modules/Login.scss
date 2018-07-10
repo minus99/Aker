@@ -118,6 +118,10 @@
                     .ems-form-label{left:100px;}
                     .ems-form-obj{
                         input[id$="CEPTELEFONALAN"]{border-right: none; width: 20% !important;}
+                        input[id$="CEPTELEFONALAN"]::-webkit-input-placeholder,
+                        input[id$="CEPTELEFONALAN"]::-moz-placeholder,
+                        input[id$="CEPTELEFONALAN"]:-ms-input-placeholder,
+                        input[id$="CEPTELEFONALAN"]:-moz-placeholder{color:$lDark;}
                         input[id$="CEPTELEFONALAN"] + input[id$="CEPTELEFON"]{width: 80% !important;}
                     }
                 }
