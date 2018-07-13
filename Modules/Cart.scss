@@ -942,7 +942,7 @@
                 }
             }
             .islemOnay{
-                background: $green;
+                background: #27d4a7;
                 padding: 15px 10px;
                 text-align: center;
                 color: #fff;
@@ -2592,7 +2592,7 @@
                         margin-left: 15px;
                         margin-right: 15px;
                         padding: 20px;
-                        height: 75px;
+                        height: 60px;
                         &:after{display: none;}
                         .ems-delivery-wrp {
                             &.packet{
@@ -2946,7 +2946,6 @@
 
         &-step1{
             .ems-page-default{
-
                 &-order-delivery{
                     .add-new-address{
                         right: inherit;
@@ -3001,6 +3000,9 @@
                                     }
                                 }
                             }
+                        }
+                        .ems-gift-tab{
+                            height: 70px;
                         }
                     }
                 }
