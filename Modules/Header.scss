@@ -180,17 +180,8 @@
                                         background-position: top left !important;
                                         background-size:cover !important;
                                         overflow: hidden;
-                                        @include transition(transform 888ms ease);
-                                        @include setTransform(scale(1));
                                         img{
                                             width: 100%;
-                                            opacity: 0;
-                                            visibility: hidden;
-                                        }
-                                    }
-                                    &:hover{
-                                        .sub-nav-cover{
-                                            @include setTransform(scale(1.1));
                                         }
                                     }
                                     span{
