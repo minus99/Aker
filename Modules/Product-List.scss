@@ -315,7 +315,7 @@ ul.emosInfinite {
         width: 25%;
         min-height: 100px;
         margin-top: 10px;
-        padding: 10px 12px;
+        padding: 5px 12px;
         &-inner{
             position: relative;
             margin: 0 auto;
@@ -336,6 +336,21 @@ ul.emosInfinite {
                     color: $btnColor;
                     &:empty{ display: none; }
                  }
+            }
+            &:empty{display: none;}
+        }
+        &-stock{
+            .urunListe_urunStokUyari{
+                height: 20px;
+                min-height:20px;
+                span{
+                    font-family: $medium;
+                    font-size: 14px;
+                    color: #a2a5ac;
+                }
+                &:empty{
+                    display: none;
+                }
             }
         }
         &-icons{
@@ -411,11 +426,11 @@ ul.emosInfinite {
             }
         }
         &-content{
-            padding: 5px 5px 0 5px;
+            padding: 10px 5px 0 5px;
             &-mask{
                 overflow: hidden;
-                min-height: 85px;
-                max-height: 85px;
+                min-height: 95px;
+                max-height: 95px;
                 text-align: center;
             }    
         }
@@ -980,9 +995,16 @@ ul.emosInfinite {
         .ems-prd{
             padding:0 5px;
             width: 50%;
-            &-content{ padding: 0; }
+            &-content{
+                padding: 5px 0 0 0;
+            }
             &-price{
-                &-first{margin-left: 5px;}
+                &-first{
+                    margin-left: 5px;
+                }
+                &-selling{
+                    > div{margin-right: 5px;}
+                }
             }
             &-group{ display:none !important; }
         }
