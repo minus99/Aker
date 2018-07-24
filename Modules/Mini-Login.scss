@@ -210,6 +210,7 @@
                 width: 100%;
                 text-align: center;
                 margin-bottom: 0;
+                margin-top: 20px;
                 &:empty{
                     display: none;
                 }
@@ -429,6 +430,7 @@ body.ems-login.mini-login-ready{
            opacity: 0;
            visibility: hidden;
             .sub{
+                .ems-message{margin-top: 0;}
                 .sub-title{
                     text-align: center;
                     .mini-login-close{left: 20px;}

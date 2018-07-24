@@ -2813,6 +2813,7 @@
     .ems-page-cart-colmn-1-top{padding-left: 0;}
 
     .ems-page-cart {
+        padding-bottom: 50px;
         .ems-pay-info{display:none;}
         .cart-section-left{
             .page-top-title{
@@ -2940,6 +2941,13 @@
                             }
                         }
                     }
+                }
+                .next{
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    z-index: 1;
                 }
             }
         }
