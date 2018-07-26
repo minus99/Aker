@@ -1497,7 +1497,13 @@
 
 .esarp-categorie{
     .urunDetay .ems-prd-size{display:none;}
-    .ems-prd-detail .ems-prd-flex-controller > div.ems-prd-brandW.show{display: none;}
+    .ems-prd-detail .ems-prd-flex-controller > div.ems-prd-brandW.show{/*display: none;*/}
+    .no-size {
+        .store-stock-pp .store-stock-inner .drp-con {display: none;}
+    } 
+    
+    
+
 }
 
 .esarp-aker{

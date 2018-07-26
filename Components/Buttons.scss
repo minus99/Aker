@@ -40,6 +40,9 @@ a.btnDefault, .ems-col.ems-col-link a{
             display: table !important;
             width: 100%;
         }
+        a.btnStokHaberci { 
+            background:#fd94b1;
+        }
         a.btnFacebookLogin, a.btnFacebookLoginKutu {
             background: $fbBtnColor;
             span {
@@ -58,7 +61,7 @@ a.btnDefault, .ems-col.ems-col-link a{
         max-width: 225px;
         margin: 0 auto;
         width: 100%;
-        display: block;
+        display: block; 
     }
     &.btnDefaultAlternate{
         background: $btnAlternateColor;
@@ -66,7 +69,7 @@ a.btnDefault, .ems-col.ems-col-link a{
             background: $btnColor;
         }
     }
-}
+} 
 
 .link-btn{
     display: inline-block;
