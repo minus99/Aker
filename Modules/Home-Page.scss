@@ -81,6 +81,21 @@
                 padding-bottom: 60px;
             }
         }
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(32%, auto) minmax(14%, auto));
+            grid-gap: 15px;
+            grid-auto-flow: column;
+            width: 100%;
+            max-width: 1440px;
+                margin: 0 auto;
+        }
+        
+        .gird-item img { width:100%; }
+        
+        .grid-item:nth-child(3n+1 ) {
+          grid-row-end: span 2;
+        }
     }
 
     .ems-container-section{
