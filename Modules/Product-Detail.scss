@@ -1817,7 +1817,12 @@
             .inner-row-2{ padding-left: 0; }
         }
         .ems-prd {
-            &-name-wrapper{ display: none; }
+            &-name-wrapper{
+                 /*display: none;*/ padding: 0 15px;
+                 h1.emos_H1 {
+                     font-size: 20px;
+                 }
+                }
             &-infodetail{ position: inherit; padding-left: 15px; padding-right: 15px; }
             &-favorites{
                 top: 20px;
@@ -1932,11 +1937,12 @@
                 span p{
                     padding-left: 15px;
                     padding-right: 15px;
+                    margin-top: 15px;
                 }
             }
             &-desc{
                 padding-left: 15px;
-                padding-right: 15px;
+                padding-right: 15px; 
             }
             &-size{
                 position: fixed;
