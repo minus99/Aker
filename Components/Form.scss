@@ -89,6 +89,39 @@ span.checkbox{
     }
 }
 
+.ulIadeFormu{
+    li{
+        position: relative;
+        > span{
+            font-family: $regular;
+            font-size: 14px;
+            color: $lDark;
+            line-height: 20px;
+            padding-bottom: 10px;
+            display: block;
+            @include transition(all .2s ease);
+            &:empty {
+                display: none;
+            }
+        }
+        > div{
+            padding-bottom: 20px;
+        }
+        &.subTitle.b1{
+            span{
+                font-family: $medium;
+                font-size: 18px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+@media screen and (min-width: $breakpointXSM){
+    .ulIadeFormu{
+        max-width: 380px;
+    }  
+}
+
 .ems-form {
     display: block;
     &-inner {
@@ -353,6 +386,7 @@ span.checkbox{
 }
 
 @media screen and (max-width: $breakpointXSM){
+
     input[type="text"], input[type="password"], input[type="file"], select, textarea, .dropdown > span {
         height: 48px;
         line-height: 36px;
@@ -381,5 +415,8 @@ span.checkbox{
                 }
             }
         }
+    }
+    .pageIadeTalep{
+        padding: 20px;
     }
 }
