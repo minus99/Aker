@@ -43,6 +43,9 @@
                                         background: $lDark;
                                         @include transition(all .2s ease);
                                     }
+                                    .mobile-element-filter-span-select{
+                                        &:empty{display: none; }
+                                    }
                                 }
                                 &.activeted{
                                     .urunKiyaslamaOzellik_ozellikAd{
@@ -71,21 +74,21 @@
                                                         text-align: left;
                                                         a{
                                                             display: inline-block;
-                                                            padding: 12px 10px 8px 30px;
+                                                            padding: 10px 10px 8px 30px;
                                                             font-family: $regular;
                                                             font-size: 14px;
                                                             position: relative;
                                                             color: $lDark;
                                                             &:before{
                                                                 content:'';
-                                                                width: 20px;
-                                                                height: 20px;
+                                                                width: 18px;
+                                                                height: 18px;
                                                                 background: $lGray;
                                                                 border: solid 1px $gray3;
                                                                 position: absolute;
                                                                 top: 50%;
                                                                 left: 0;
-                                                                margin-top: -10px;
+                                                                margin-top: -9px;
                                                             }
                                                             &.link_selected{
                                                                 &:before{
@@ -214,6 +217,9 @@
                                         font-size: 12px;
                                         text-align: center;
                                     }
+                                    .mobile-element-filter-span-select{
+                                        &:empty{display: none; }
+                                    }
                                 }
                                 &.activeted{
                                     .urunKiyaslamaOzellik_ozellikAd{
@@ -265,14 +271,14 @@
                                                             color: $lDark;
                                                             &:before{
                                                                 content:'';
-                                                                width: 20px;
-                                                                height: 20px;
+                                                                width: 18px;
+                                                                height: 18px;
                                                                 background: #fff;
                                                                 border: solid 1px $gray3;
                                                                 position: absolute;
                                                                 top: 50%;
                                                                 left: 0;
-                                                                margin-top: -10px;
+                                                                margin-top: -9px;
                                                             }
                                                             &.link_selected{
                                                                 &:before{

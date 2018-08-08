@@ -339,6 +339,7 @@ ul.emosInfinite {
             }
             &:empty{display: none;}
         }
+        &-discount{ display: none; max-width: 60px; }
         &-stock{
             .urunListe_urunStokUyari{
                 height: 20px;
